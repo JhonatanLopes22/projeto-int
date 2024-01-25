@@ -1,0 +1,28 @@
+.baner{
+    display: flex;
+    min-height: 40em;
+    height: 40vh;
+    position: relative;
+    background-image: url(BANNER.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;  
+}
+
+a:hover {
+    opacity: 0,7;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
